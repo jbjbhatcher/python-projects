@@ -4,7 +4,7 @@ import getpass
 
 #Get a hash of the password that is inputted
 
-password = getpass.getpass("Enter that shit:")
+password = getpass.getpass("Enter that stuff:")
 
 hash = pbkdf2_sha256.encrypt(password, rounds=200000, salt_size=16)
 
